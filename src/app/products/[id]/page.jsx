@@ -1,5 +1,4 @@
-/* eslint-disable @next/next/no-img-element */
-import Buttons from "./Buttons";
+import Buttons from "./buttons";
 import { conn } from "@/libs/mysql";
 
 async function loadProduct(productId) {
